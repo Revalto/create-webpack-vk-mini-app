@@ -1,0 +1,72 @@
+{
+  "name": "@vkontakte/create-webpack-vk-mini-app",
+  "version": "1.1",
+  "description": "VK Mini Apps Boilerplate",
+  "repository": "https://github.com/Revalto/create-webpack-vk-mini-app",
+  "homepage": "https://vk.com/dev/vk_apps_docs",
+  "main": "bin/create-webpack-vk-mini-app.js",
+  "bin": {
+    "create-webpack-vk-mini-app": "./bin/create-webpack-vk-mini-app.js"
+  },
+  "scripts": {
+    "create": "node ./bin/create-webpack-vk-mini-app.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "VK",
+    "url": "https://vk.com/"
+  },
+  "contributors": [
+    {
+      "name": "Gleb Vorontsov",
+      "email": "vorontsov.gleb@gmail.com",
+      "url": "https://vk.com/boy"
+    },
+    {
+      "name": "Revalto",
+      "email": "samuel.nestro@mail.ru",
+      "url": "https://vk.com/s.revalto"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@vkontakte/icons": "^1.18.2",
+    "@vkontakte/vk-miniapps-deploy": "0.0.17",
+    "@vkontakte/vkui": "^3.5.0",
+    "babel-eslint": "^10.1.0",
+    "chalk": "^2.4.2",
+    "core-js": "^3.6.4",
+    "eruda": "^2.2.0",
+    "eruda-code": "^2.0.0",
+    "eruda-dom": "^2.0.0",
+    "fs-extra": "^8.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "react-hot-loader": "^4.9.0",
+    "react-scripts": "^3.4.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "resolutions": {
+    "react-scripts/webpack-dev-server/yargs/yargs-parser": ">=18.1.2"
+  }
+}
